@@ -30,7 +30,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post('/api/login', { email, password, latitude: location.latitude, longitude: location.longitude})
+    axios.post('api/login', { email, password, latitude: location.latitude, longitude: location.longitude})
       .then((response) => {
         if (response.data.status === "success") {
             cookie.set('email', email);
