@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://challenge-based-face-recognition-hnc5a2axefaehmfj.eastus-01.azurewebsites.net" }
+    { "source": "/api/:path*", "destination": "https://challenge-based-face-recognition-hnc5a2axefaehmfj.eastus-01.azurewebsites.net/:path" }
   ]
 } 
